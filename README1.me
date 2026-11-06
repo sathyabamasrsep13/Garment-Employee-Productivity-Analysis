@@ -1,0 +1,159 @@
+# Garment Employee Productivity Analysis
+
+### Machine Learning Mini Project | Regression
+
+## 📌 Project Overview
+
+This project focuses on analyzing and predicting garment employee productivity using Machine Learning techniques.
+
+It explores various factors influencing employee productivity and develops regression models to predict actual productivity. The project aims to provide insights that can support better workforce management and production planning.
+
+## 🎯 Project Objectives
+
+- Analyze garment employee productivity patterns.
+- Identify factors influencing actual productivity.
+- Perform data cleaning and preprocessing.
+- Explore relationships between different features.
+- Build and evaluate multiple regression models.
+- Compare model performance using evaluation metrics.
+- Select the best-performing model for productivity prediction.
+
+## 📂 Dataset Information
+
+**Dataset Name:** Productivity Prediction of Garment Employees
+
+- Total Records: 1,197
+- Original Features: 15
+- Target Variable: `actual_productivity`
+- Problem Type: Supervised Machine Learning – Regression
+
+**Dataset Source:** [GitHub Repository](https://github.com/sathyabamasrsep13/Garment-Employee-Productivity-Analysis)
+
+## 🛠️ Technologies & Libraries Used
+
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Google Colab
+
+## ⚙️ Project Workflow
+
+1. Data Collection
+2. Data Understanding
+3. Data Cleaning
+4. Exploratory Data Analysis (EDA)
+5. Data Preprocessing
+6. Feature Engineering
+7. Feature Selection
+8. Train-Test Split
+9. Model Building
+10. Model Evaluation
+11. Hyperparameter Tuning
+12. Final Model Selection
+
+## 🔍 Data Preprocessing
+
+The following preprocessing techniques were applied:
+
+- Removed unnecessary features.
+- Checked missing values and duplicate records.
+- Handled inconsistent categorical values.
+- Performed outlier capping.
+- Applied One-Hot Encoding for categorical features.
+- Applied Standard Scaling for numerical features.
+- Used a Machine Learning Pipeline to organize preprocessing and model building.
+
+## 🤖 Machine Learning Models
+
+The following regression algorithms were implemented:
+
+1. Linear Regression
+2. Decision Tree Regressor
+3. Random Forest Regressor
+4. Gradient Boosting Regressor
+
+### Hyperparameter Tuning
+
+GridSearchCV with 5-fold cross-validation was used to optimize the Random Forest Regressor.
+
+**Best Hyperparameters:**
+
+| Parameter | Best Value |
+|---|---|
+| n_estimators | 200 |
+| max_depth | None |
+| min_samples_split | 5 |
+| min_samples_leaf | 2 |
+
+Best Cross-Validation R² Score: **0.4657**
+
+## 📊 Model Evaluation
+
+The models were evaluated using the following metrics:
+
+- R² Score
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+
+### Model Performance Comparison
+
+| Model | R² Score | MAE | MSE | RMSE |
+|---|---:|---:|---:|---:|
+| Linear Regression | 0.3093 | 0.0989 | 0.0183 | 0.1354 |
+| Decision Tree | 0.3488 | 0.0774 | 0.0173 | 0.1315 |
+| Gradient Boosting | 0.4446 | 0.0818 | 0.0147 | 0.1214 |
+| Random Forest | 0.5211 | 0.0712 | 0.0127 | 0.1128 |
+| **Tuned Random Forest** | **0.5249** | **0.0712** | **0.0126** | **0.1123** |
+
+## 🏆 Final Model Selection
+
+**Selected Model: Tuned Random Forest Regressor**
+
+The Tuned Random Forest Regressor achieved the best overall performance among the evaluated models.
+
+**Final Evaluation Results:**
+
+- R² Score: 0.5249
+- MAE: 0.0712
+- MSE: 0.0126
+- RMSE: 0.1123
+
+## 📈 Key Findings
+
+- Explored employee productivity patterns using data visualization.
+- Analyzed the relationships between workforce-related features.
+- Compared four regression algorithms.
+- Applied GridSearchCV to optimize Random Forest hyperparameters.
+- Observed improved performance after hyperparameter tuning.
+- Selected Tuned Random Forest as the best-performing model.
+
+## 📝 Conclusion
+
+This project demonstrates the application of Machine Learning techniques to analyze and predict garment employee productivity.
+
+Among the evaluated regression models, the Tuned Random Forest Regressor achieved the highest R² score of 0.5249.
+
+The project provides insights into productivity analysis and demonstrates how predictive models can support production planning and workforce management in the garment industry.
+
+## 🚀 Future Improvements
+
+- Explore additional relevant features.
+- Experiment with advanced regression algorithms.
+- Improve prediction performance through further optimization.
+- Develop an interactive productivity prediction application.
+
+## 👩‍💻 Author
+
+**Sathiyabama S R**
+
+Aspiring Data Science Professional
+
+- GitHub: [sathyabamasrsep13](https://github.com/sathyabamasrsep13)
+- LinkedIn: [Sathiyabama S R](https://linkedin.com/in/sathiyabama-rajaram-070057397/)
+
+---
+*Mini Project – Data Science*
